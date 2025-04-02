@@ -1,4 +1,4 @@
-package proyecto.java;
+package proyecto.java.pkg5_unidad7.Cosas;
 
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
