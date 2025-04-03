@@ -17,5 +17,6 @@ public class SintonizadorMain {
         s.upFrecuencia(1);
         s.upFrecuencia(5);
         s.downFrecuencia(5);
+        s.display();
     }
 }

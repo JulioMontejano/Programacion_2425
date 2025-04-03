@@ -1,5 +1,4 @@
 package proyecto.java.pkg5_unidad7.actividad9;
-import java.lang.Math;
 import java.util.Scanner;
 
 public class Bombillas {
@@ -37,4 +36,5 @@ public class Bombillas {
             System.out.println("Parámetro no comprendido");
         }
         return interruptor;
-    }}
+    }
+}
