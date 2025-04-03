@@ -1,8 +1,21 @@
 package proyecto.java.actividad10.maquinaria;
 
-public class Vagones {
+class Vagones {
+    private int cantidadVagones;
     private int cargaMax;
     private int cargaActual;
+    
+    Vagones(int cargaMax, int cargaActual, int cantidadVagones) {
+        this.cargaMax = cargaMax;
+        this.cargaActual = cargaActual;
+    }
+
+    public int getCantidadVagones() {
+        return cantidadVagones;
+    }
+    public void setCantidadVagones(int cantidadVagones) {
+        this.cantidadVagones = cantidadVagones;
+    }
     public int getCargaMax() {
         return cargaMax;
     }

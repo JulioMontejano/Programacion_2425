@@ -10,7 +10,6 @@ public class Mecanicos {
         this.especialidad=especialidad;
         this.nombre=nombre;
     }
-     
     public String getNombre() {
         return nombre;
     }

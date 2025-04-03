@@ -6,5 +6,12 @@ public class Locomotoras {
     private String matricula;
     private int potenciaMotor;
     private String añoFabricacion;
+    Mecanicos m = new Mecanicos();
     
+    Locomotoras(String matricula, int potenciaMotor, String añoFabricacion, Mecanicos m) {
+        this.matricula = matricula;
+        this.potenciaMotor = potenciaMotor;
+        this.añoFabricacion = añoFabricacion;
+        this.m = m;
+    }
 }
