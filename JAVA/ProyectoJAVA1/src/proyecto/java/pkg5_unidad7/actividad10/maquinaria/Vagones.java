@@ -1,4 +1,4 @@
-package proyecto.java.actividad10.maquinaria;
+package proyecto.java.pkg5_unidad7.actividad10.maquinaria;
 
 class Vagones {
     private int cantidadVagones;

@@ -1,4 +1,4 @@
-package proyecto.java.actividad10.personal;
+package proyecto.java.pkg5_unidad7.actividad10.personal;
 
 public class Mecanicos {
     private String nombre;

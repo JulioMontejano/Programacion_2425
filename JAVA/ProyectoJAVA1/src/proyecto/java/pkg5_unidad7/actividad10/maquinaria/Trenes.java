@@ -1,6 +1,6 @@
-package proyecto.java.actividad10.maquinaria;
+package proyecto.java.pkg5_unidad7.actividad10.maquinaria;
 
-import proyecto.java.actividad10.personal.Maquinistas;
+import proyecto.java.pkg5_unidad7.actividad10.personal.Maquinistas;
 
 public class Trenes {
     Locomotoras locomotoras =new Locomotoras(null, 0, null, null);
