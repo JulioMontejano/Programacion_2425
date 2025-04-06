@@ -7,14 +7,20 @@ public class Locomotoras {
     private String matricula;
     private int potenciaMotor;
     private String añoFabricacion;
-    
-    private Mecanicos m= new Mecanicos("Jorge", 673122334, "Hidráulica");
-    
-    Locomotoras(String matricula, int potenciaMotor, String añoFabricacion, Mecanicos m) {
+    private Mecanicos m;
+
+    Locomotoras(String matricula, int potenciaMotor, String añoFabricacion) {
         this.matricula = matricula;
         this.potenciaMotor = potenciaMotor;
         this.añoFabricacion = añoFabricacion;
-        this.m = m;
+
+    }
+
+    Locomotoras(String matricula, int potenciaMotor, String añoFabricacion, String Nombre, String especialidad, int telefono){
+        this(matricula, potenciaMotor, añoFabricacion);
+        m.setEspecialidad(especialidad);
+        m.setNombre(Nombre);
+        m.setTelefono(telefono);
     }
 
     public String getMatricula() {
