@@ -1,11 +1,13 @@
 package proyecto.java.pkg5_unidad7.actividad10.personal;
 
-public class Mecanicos {
+public class Mecanico {
     private String nombre;
     private int telefono;
     private String especialidad;
 
-    Mecanicos(String nombre, int telefono, String especialidad){
+    
+
+    public Mecanico(String nombre, int telefono, String especialidad){
         this.telefono=telefono;
         this.especialidad=especialidad;
         this.nombre=nombre;

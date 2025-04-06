@@ -1,9 +1,18 @@
 package proyecto.java.pkg5_unidad7.actividad10.personal;
 
-public class Maquinistas{
+public class Maquinista{
     private String nombre;
     private double sueldo;
     private String rango;
+
+    
+    Maquinista(String nombre, double sueldo, String rango) {
+        this.nombre = nombre;
+        this.sueldo = sueldo;
+        this.rango = rango;
+    }
+
+    
     public String getNombre() {
         return nombre;
     }

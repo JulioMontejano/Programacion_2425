@@ -1,9 +1,18 @@
 package proyecto.java.pkg5_unidad7.actividad10.personal;
 
-public class JefesDeEstacion {
+public class JefeDeEstacion {
     private String nombre;
     private String dni;
     private String fechaNombrado;
+
+
+    public JefeDeEstacion(String nombre, String dni, String fechaNombrado) {
+        this.nombre = nombre;
+        this.dni = dni;
+        this.fechaNombrado = fechaNombrado;
+    }
+
+    
     public String getNombre() {
         return nombre;
     }

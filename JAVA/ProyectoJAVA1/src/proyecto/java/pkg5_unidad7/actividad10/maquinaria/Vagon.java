@@ -1,14 +1,19 @@
 package proyecto.java.pkg5_unidad7.actividad10.maquinaria;
 
-class Vagones {
+import java.util.Scanner;
+
+class Vagon {
     private int cantidadVagones;
     private int cargaMax;
     private int cargaActual;
+
     
-    Vagones(int cargaMax, int cargaActual, int cantidadVagones) {
+    Vagon(int cantidadVagones, int cargaMax, int cargaActual) {
+        this.cantidadVagones = cantidadVagones;
         this.cargaMax = cargaMax;
         this.cargaActual = cargaActual;
     }
+
 
     public int getCantidadVagones() {
         return cantidadVagones;

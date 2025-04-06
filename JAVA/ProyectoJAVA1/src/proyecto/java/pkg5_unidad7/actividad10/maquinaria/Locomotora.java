@@ -1,26 +1,24 @@
 package proyecto.java.pkg5_unidad7.actividad10.maquinaria;
 
-import proyecto.java.pkg5_unidad7.actividad10.personal.Mecanicos;
+import proyecto.java.pkg5_unidad7.actividad10.personal.Mecanico;
 
 
-public class Locomotoras {
+public class Locomotora {
     private String matricula;
     private int potenciaMotor;
     private String añoFabricacion;
-    private Mecanicos m;
+    private Mecanico m;
 
-    Locomotoras(String matricula, int potenciaMotor, String añoFabricacion) {
+    Locomotora(String matricula, int potenciaMotor, String añoFabricacion) {
         this.matricula = matricula;
         this.potenciaMotor = potenciaMotor;
         this.añoFabricacion = añoFabricacion;
 
     }
 
-    Locomotoras(String matricula, int potenciaMotor, String añoFabricacion, String Nombre, String especialidad, int telefono){
+    public Locomotora(String matricula, int potenciaMotor, String añoFabricacion, Mecanico m){
         this(matricula, potenciaMotor, añoFabricacion);
-        m.setEspecialidad(especialidad);
-        m.setNombre(Nombre);
-        m.setTelefono(telefono);
+        this.m=m;
     }
 
     public String getMatricula() {
@@ -46,5 +44,4 @@ public class Locomotoras {
     public void setAñoFabricacion(String añoFabricacion) {
         this.añoFabricacion = añoFabricacion;
     }
-
 }
